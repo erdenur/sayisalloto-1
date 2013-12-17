@@ -7,7 +7,8 @@ for i in range(0,8):
 		loto.append(b)
 		if loto.count(b) == 0:
 		   loto.append(b)
-		   a = a-1
+		   a = a+1
+                loto.sort()
 		if kolonlar.count(loto) == 0:
 		   kolonlar.append(loto)
 print kolonlar
